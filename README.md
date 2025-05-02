@@ -34,13 +34,13 @@ Mô tả: Dự án này cung cấp giao diện web đơn giản để **nén** v
 
 ## Giao diện (GUI)
 ### 1. Giao diện chứa chức năng nén và giải nén
-![](test_images\projects\1.png)
+![](test_images/projects/1.png)
 
 ### 2. Giao diện kết quả sau khi nén
-![](test_images\projects\2.png)
+![](test_images/projects/2.png)
 
 ### 3. Giao diện visualize trực quan
-![](test_images\projects\3.png)
+![](test_images/projects/3.png)
 
 ## Cách dùng (Usage)
 
