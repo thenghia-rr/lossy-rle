@@ -1,8 +1,7 @@
 # ĐỒ ÁN KẾT THÚC MÔN KHAI PHÁ DỮ LIỆU
 
-Đề tài: Áp dụng kĩ thuật Lossy RLE trong nén ảnh và giải nén ảnh
-
-Mô tả: Dự án này cung cấp giao diện web đơn giản để **nén** và **giải nén ảnh RGB** bằng kỹ thuật **Run-Length Encoding (RLE)** được tùy chỉnh, gọi là **Lossy RLE**.
+- Đề tài: Áp dụng kĩ thuật Lossy RLE trong nén ảnh và giải nén ảnh
+- Mô tả: Dự án này cung cấp giao diện web đơn giản để **nén** và **giải nén ảnh Grayscale/RGB** bằng kỹ thuật **Run-Length Encoding (RLE)** được tùy chỉnh, gọi là **Lossy RLE**.
 
 ## Tính năng chính (Core functionality)
 
