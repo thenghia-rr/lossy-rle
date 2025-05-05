@@ -85,9 +85,7 @@ with col1:
     if uploaded_file is not None:
         img = Image.open(uploaded_file)
         original_mode = img.mode
-        if original_mode not in ["RGB", "L"]:
-            img = img.convert("RGB")  # Chuyển sang RGB nếu không phải RGB hoặc L
-            original_mode = "RGB"
+       
 
         st.image(img, caption=f"Ảnh gốc ({original_mode})", use_container_width=True)
 
