@@ -14,7 +14,7 @@ def lossy_rle_compress_with_progress(pixels, threshold, update_progress, base_pr
     last_update = 0
     while i < length:
         count = 1
-        while i + count < length and pixels[i] == pixels[i + count]:
+        while i + count < length and abs(pixels[i] - pixels[i + count]) <= threshold:
             count += 1
         if count > threshold:
             compressed.append((1, count, pixels[i]))
