@@ -140,15 +140,15 @@ with col1:
             st.write(f"**Kích thước sau nén:** {compressed_size} bytes")
             st.write(f"**Tỷ lệ nén:** {compression_ratio:.2f}%")
 
-            st.write(f"📊 Có {run_count} đoạn Run-length, {raw_count} đoạn Raw-data.")
-            st.write(f"🏆 Tỉ lệ run-length: {run_ratio:.2f}%")
+            # st.write(f"📊 Có {run_count} đoạn Run-length, {raw_count} đoạn Raw-data.")
+            # st.write(f"🏆 Tỉ lệ run-length: {run_ratio:.2f}%")
 
-            # Pie chart
-            fig, ax = plt.subplots()
-            ax.pie([run_count, raw_count], labels=['Run-length', 'Raw-data'],
-                   autopct='%1.1f%%', startangle=90, colors=['#4CAF50', '#FF5722'])
-            ax.axis('equal')
-            st.pyplot(fig)
+            # # Pie chart
+            # fig, ax = plt.subplots()
+            # ax.pie([run_count, raw_count], labels=['Run-length', 'Raw-data'],
+            #        autopct='%1.1f%%', startangle=90, colors=['#4CAF50', '#FF5722'])
+            # ax.axis('equal')
+            # st.pyplot(fig)
 
             # Bar chart
             fig2, ax2 = plt.subplots()

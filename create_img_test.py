@@ -8,16 +8,16 @@ from PIL import Image
 
 # ----------Convert image to grayscale----------
 
-# img = Image.open("test_images/1.jpg").convert("L")
-# img.save("test_images/1.bmp", format="BMP")
-# print("Saved mode:", Image.open("test_images/1.bmp").mode)
+img = Image.open("test_images/1.jpg").convert("L")
+img.save("test_images/1.bmp", format="BMP")
+print("Saved mode:", Image.open("test_images/1.bmp").mode)
 
 # -------------Check mode-------------
 
-img1 = Image.open("test_images/moss.png")
-img2 = Image.open("test_images/brave.bmp")
+# img1 = Image.open("test_images/moss.png")
+# img2 = Image.open("test_images/brave.bmp")
 
-print("Mode moss: ", img1.mode)
-print("Mode moss grayscale: ", img2.mode)
+# print("Mode moss: ", img1.mode)
+# print("Mode moss grayscale: ", img2.mode)
 
 
